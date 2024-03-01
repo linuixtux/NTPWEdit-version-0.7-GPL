@@ -1,0 +1,30 @@
+* Compilation with MINGW *
+
+Requirements:
+  - MINGW compiler (http://www.mingw.org/)
+    or MinGW-w64 (http://mingw-w64.sourceforge.net/)
+  - CMake 2.8.4 or newer (http://www.cmake.org/)
+
+All tools must be accesible through PATH environment variable.
+
+Procedure:
+  1) Extract archive with NTPWEdit sources
+  2) Run "configure-mingw.cmd"
+  3) Go to "build" subdirectory
+  4) Run "mingw32-make"
+
+
+* Compilation with MS Visual C *
+
+Requirements:
+  - MS Visual Studio 2010 or newer
+    or MS Windows SDK for Windows 7 and .NET 4 or newer
+  - CMake 2.8.4 or newer (http://www.cmake.org/)
+
+All tools must be accesible through PATH environment variable.
+
+Procedure:
+  1) Extract archive with NTPWEdit sources
+  2) Run "configure-msvc.cmd"
+  3) Go to "build" subdirectory
+  4) Run "nmake"

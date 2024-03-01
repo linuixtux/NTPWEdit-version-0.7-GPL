@@ -1,0 +1,5 @@
+all: .DEFAULT
+.PHONY: all
+
+.DEFAULT:
+	$(MAKE) -C build $(MAKECMDGOALS)
